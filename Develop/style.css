@@ -10,6 +10,7 @@ textarea {
   resize: none;
   color: #000000;
   border-left: 1px solid black;
+
   padding: 10px;
 }
 
@@ -30,9 +31,9 @@ textarea {
   border-radius: 15px;
 }
 
-.rosw {
+.row {
   white-space: pre-wrap;
-  height: 80px;
+  /* height: 80px; */
   border-top: 1px solid white;
 }
 
@@ -68,4 +69,31 @@ textarea {
 .saveBtn i:hover {
   font-size: 20px;
   transition: all 0.3s ease-in-out;
+}
+@media (max-width: 768px) {
+  .btn {
+    font-size: 11px;
+    padding: 4px 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  .btn {
+    font-size: 12px;
+    padding: 6px 12px;
+  }
+}
+
+@media (min-width: 992px) {
+  .btn {
+    font-size: 14px;
+    padding: 8px 12px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .btn {
+    padding: 10px 16px;
+    font-size: 18px;
+  }
 }
